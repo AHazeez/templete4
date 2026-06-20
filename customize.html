@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TGV Worldwide Holidays — Luxury Travel Concierge</title>
+<title>Customize Journey — TGV Worldwide Holidays</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -31,10 +31,10 @@
     </a>
 
     <nav class="nav-links" id="navLinks">
-      <a href="index.html" class="active">Home</a>
+      <a href="index.html">Home</a>
       <a href="destinations.html">Destinations</a>
       <a href="experiences.html">Experiences</a>
-      <a href="customize.html">Customize Itinerary</a>
+      <a href="customize.html" class="active">Customize Itinerary</a>
       <a href="about.html">About Us</a>
       <a href="contact.html">Contact</a>
     </nav>
@@ -53,245 +53,137 @@
 
 <main>
 
-<!-- ============ HERO ============ -->
-<section class="hero" id="home">
-  <div class="hero-glow"></div>
-  <div class="hero-inner">
-    <div class="hero-left" data-reveal>
-      <span class="eyebrow"><span class="eyebrow-dot"></span>Luxury Travel Concierge</span>
-      <h1 class="hero-title">
-        Your Dream Journey,<br>
-        <em>Designed Around You.</em>
-      </h1>
-      <p class="hero-sub">
-        From luxury escapes to family vacations and corporate travel, every journey is carefully
-        planned by a dedicated concierge to match your preferences — not a template.
-      </p>
-      <div class="hero-actions">
-        <a href="customize.html" class="btn-primary">
-          Customize My Journey
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </a>
-        <a href="destinations.html" class="btn-secondary">Explore Destinations</a>
-      </div>
-
-      <div class="hero-trust">
-        <div class="trust-item"><strong>15+</strong><span>Years Experience</span></div>
-        <div class="trust-divider"></div>
-        <div class="trust-item"><strong>50+</strong><span>Destinations</span></div>
-        <div class="trust-divider"></div>
-        <div class="trust-item"><strong>10K+</strong><span>Happy Travelers</span></div>
-      </div>
-    </div>
-
-    <div class="hero-right" data-reveal>
-      <div class="dash-card dash-main">
-        <div class="dash-header">
-          <span class="dash-title">Your Journey Dashboard</span>
-          <span class="dash-status">Live</span>
-        </div>
-        <div class="dash-route">
-          <div class="route-point">
-            <span class="route-city">Bengaluru</span>
-            <span class="route-code">BLR</span>
-          </div>
-          <svg class="route-line" width="64" height="16" viewBox="0 0 64 16" fill="none">
-            <path d="M2 8h54" stroke="#D8C49A" stroke-width="1.5" stroke-dasharray="3 3"/>
-            <path d="M50 3l8 5-8 5" stroke="#5A136D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-          <div class="route-point align-right">
-            <span class="route-city">Maldives</span>
-            <span class="route-code">MLE</span>
-          </div>
-        </div>
-        <div class="dash-meta">
-          <div class="dash-meta-item"><span>Dates</span><strong>14 – 21 Nov</strong></div>
-          <div class="dash-meta-item"><span>Travelers</span><strong>2 Adults</strong></div>
-          <div class="dash-meta-item"><span>Style</span><strong>Honeymoon</strong></div>
-        </div>
-        <div class="dash-progress">
-          <div class="dash-progress-bar"><span style="width:70%"></span></div>
-          <span class="dash-progress-label">Itinerary 70% personalized</span>
-        </div>
-      </div>
-
-      <div class="float-card float-card-1">
-        <div class="float-icon" style="background:#EFE3F2;color:#5A136D">🏝️</div>
-        <div><strong>Maldives Overwater Villa</strong><span>From ₹1,85,000 / couple</span></div>
-      </div>
-      <div class="float-card float-card-2">
-        <div class="float-icon" style="background:#FBF4E5;color:#9c8657">🛂</div>
-        <div><strong>Visa Approved</strong><span>Concierge handled it for you</span></div>
-      </div>
-      <div class="float-card float-card-3">
-        <div class="float-icon" style="background:#E6F7E8;color:#1f8f2b">✓</div>
-        <div><strong>Payment Secured</strong><span>256-bit encrypted checkout</span></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ DISCOVER TEASERS ============ -->
-<section class="teaser-section">
+<section class="customize-page-wrap" style="background: linear-gradient(135deg, #3D0E4A 0%, #5A136D 60%, #6B1880 100%);">
   <div class="section-inner">
-    <div class="section-head" style="max-width:800px; margin: 0 auto 50px; text-align: center;">
-      <span class="eyebrow" style="justify-content: center;"><span class="eyebrow-dot"></span>Design Your Escape</span>
-      <h2 class="section-title">A world of luxury, tailored just for you</h2>
-      <p class="section-sub" style="margin: 0 auto;">Explore our curated destinations, distinct travel experiences, or build a detailed travel plan using our interactive concierge builder.</p>
+    
+    <div class="section-head" style="max-width: 680px; margin-bottom: 40px; color: white;">
+      <span class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span>Signature Journey Builder</span>
+      <h1 style="font-size: clamp(32px, 5.2vw, 44px); color: white; margin-bottom: 12px;">Build a journey that's entirely yours</h1>
+      <p class="section-sub" style="color: rgba(255, 255, 255, 0.76);">Six simple steps. One personalized plan, prepared by a real travel consultant — not an algorithm.</p>
     </div>
 
-    <div class="teaser-grid">
-      <article class="teaser-card" style="background-image:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=900&auto=format&fit=crop')">
-        <div class="teaser-overlay"></div>
-        <div class="teaser-content">
-          <h3>Our Destinations</h3>
-          <p>Immerse yourself in spectacular landscapes, from secluded tropical islands to breathtaking Alpine ranges.</p>
-          <a href="destinations.html" class="btn-teaser">Explore Worlds →</a>
-        </div>
-      </article>
+    <!-- ============ JOURNEY BUILDER ============ -->
+    <div class="builder">
+      <div class="builder-steps" id="builderSteps">
+        <button class="b-step active" data-step="1">
+          <span class="b-num">01</span>
+          <span class="b-label">Destination</span>
+        </button>
+        <button class="b-step" data-step="2">
+          <span class="b-num">02</span>
+          <span class="b-label">Travel Dates</span>
+        </button>
+        <button class="b-step" data-step="3">
+          <span class="b-num">03</span>
+          <span class="b-label">Budget</span>
+        </button>
+        <button class="b-step" data-step="4">
+          <span class="b-num">04</span>
+          <span class="b-label">Travel Style</span>
+        </button>
+        <button class="b-step" data-step="5">
+          <span class="b-num">05</span>
+          <span class="b-label">Experiences</span>
+        </button>
+        <button class="b-step" data-step="6">
+          <span class="b-num">06</span>
+          <span class="b-label">Your Plan</span>
+        </button>
+      </div>
 
-      <article class="teaser-card" style="background-image:url('https://images.unsplash.com/photo-1544644181-1484b3fdfc62?q=80&w=900&auto=format&fit=crop')">
-        <div class="teaser-overlay"></div>
-        <div class="teaser-content">
-          <h3>Journey Styles</h3>
-          <p>Whether a bespoke honeymoon, active exploration, or cruise holiday, discover travel designed for you.</p>
-          <a href="experiences.html" class="btn-teaser">View Styles →</a>
-        </div>
-      </article>
-
-      <article class="teaser-card" style="background-image:url('https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=900&auto=format&fit=crop')">
-        <div class="teaser-overlay"></div>
-        <div class="teaser-content">
-          <h3>Interactive Builder</h3>
-          <p>Create a customized itinerary in 6 simple steps. Send it to a concierge to refine within 24 hours.</p>
-          <a href="customize.html" class="btn-teaser">Build Journey →</a>
-        </div>
-      </article>
-    </div>
-  </div>
-</section>
-
-<!-- ============ WHY TGV (Bento) ============ -->
-<section class="section why">
-  <div class="section-inner">
-    <div class="section-head" data-reveal>
-      <span class="eyebrow"><span class="eyebrow-dot"></span>Why TGV Worldwide</span>
-      <h2 class="section-title">Trusted by ten thousand journeys</h2>
-      <p class="section-sub">At TGV, we craft memories that linger for a lifetime. Handcrafted itineraries backed by absolute travel reliability.</p>
-      <a href="about.html" class="btn-secondary" style="margin-top: 18px;">Our Philosophy & Story</a>
-    </div>
-
-    <div class="bento" data-reveal>
-      <div class="bento-cell bento-big">
-        <span class="bento-num">15+</span>
-        <span class="bento-label">Years of Experience</span>
-        <p>Crafting bespoke journeys since 2011, for honeymooners, families, and global enterprises alike.</p>
-      </div>
-      <div class="bento-cell">
-        <span class="bento-num">50+</span>
-        <span class="bento-label">Global Destinations</span>
-      </div>
-      <div class="bento-cell">
-        <span class="bento-num">10K+</span>
-        <span class="bento-label">Happy Travelers</span>
-      </div>
-      <div class="bento-cell bento-icon-cell">
-        <span class="bento-icon">🕐</span>
-        <span class="bento-label">24/7 Support</span>
-      </div>
-      <div class="bento-cell bento-icon-cell">
-        <span class="bento-icon">🛂</span>
-        <span class="bento-label">Visa Assistance</span>
-      </div>
-      <div class="bento-cell bento-icon-cell">
-        <span class="bento-icon">🧑‍💼</span>
-        <span class="bento-label">Travel Experts</span>
-      </div>
-      <div class="bento-cell bento-icon-cell">
-        <span class="bento-icon">🧳</span>
-        <span class="bento-label">Tailor-Made Packages</span>
-      </div>
-      <div class="bento-cell bento-icon-cell wide">
-        <span class="bento-icon">✨</span>
-        <span class="bento-label">Premium Service End-to-End</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ TESTIMONIALS ============ -->
-<section class="section testimonials">
-  <div class="section-inner">
-    <div class="section-head" data-reveal>
-      <span class="eyebrow"><span class="eyebrow-dot"></span>Client Testimonials</span>
-      <h2 class="section-title">Journeys our travelers still talk about</h2>
-    </div>
-
-    <div class="testi-wrap" data-reveal>
-      <div class="testi-track" id="testiTrack">
-        <article class="testi-card">
-          <div class="testi-stars">★★★★★</div>
-          <p>"TGV planned our Maldives honeymoon down to the smallest detail. We didn't lift a finger — every transfer, every reservation, just happened."</p>
-          <div class="testi-person">
-            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop" alt="">
-            <div><strong>Aditi & Rohan Sharma</strong><span>Maldives Honeymoon</span></div>
+      <div class="builder-panel">
+        <!-- Step 1 -->
+        <div class="b-pane active" data-pane="1">
+          <h3>Where would you like to go?</h3>
+          <p class="b-hint">Pick a destination, or tell us a vibe and we'll suggest one.</p>
+          <div class="chip-grid">
+            <button class="chip active" data-dest="Maldives">🏝️ Maldives</button>
+            <button class="chip" data-dest="Switzerland">🏔️ Switzerland</button>
+            <button class="chip" data-dest="Japan">⛩️ Japan</button>
+            <button class="chip" data-dest="Italy">🍷 Italy</button>
+            <button class="chip" data-dest="Dubai">🏙️ Dubai</button>
+            <button class="chip" data-dest="Bali">🌴 Bali</button>
+            <button class="chip" data-dest="Turkey">🕌 Turkey</button>
+            <button class="chip" data-dest="Greece">🏛️ Greece</button>
           </div>
-        </article>
-        <article class="testi-card">
-          <div class="testi-stars">★★★★★</div>
-          <p>"Traveling with three kids felt effortless. Our concierge anticipated things we hadn't even thought to ask for."</p>
-          <div class="testi-person">
-            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop" alt="">
-            <div><strong>Karan Mehta</strong><span>Family Holiday, Switzerland</span></div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="b-pane" data-pane="2">
+          <h3>When are you traveling?</h3>
+          <p class="b-hint">Select your departure and return dates.</p>
+          <div class="date-row">
+            <label class="date-field">
+              <span>Departure</span>
+              <input type="date" id="dateStart" value="2026-11-14">
+            </label>
+            <label class="date-field">
+              <span>Return</span>
+              <input type="date" id="dateEnd" value="2026-11-21">
+            </label>
           </div>
-        </article>
-        <article class="testi-card">
-          <div class="testi-stars">★★★★★</div>
-          <p>"Our company offsite for 40 employees in Bali was flawless — logistics, stays, activities, all handled by one dedicated team."</p>
-          <div class="testi-person">
-            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&auto=format&fit=crop" alt="">
-            <div><strong>Priya Nair</strong><span>Corporate Offsite, Bali</span></div>
+          <div class="trip-length" id="tripLength">7 nights · Peak season</div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="b-pane" data-pane="3">
+          <h3>What's your budget?</h3>
+          <p class="b-hint">Drag to set a comfortable range — we'll match packages to fit.</p>
+          <div class="budget-display">₹<span id="budgetVal">2,50,000</span> <small>per couple</small></div>
+          <input type="range" id="budgetSlider" min="80000" max="800000" step="10000" value="250000">
+          <div class="budget-labels"><span>₹80K</span><span>₹8L+</span></div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="b-pane" data-pane="4">
+          <h3>What's your travel style?</h3>
+          <p class="b-hint">This shapes the pace and tone of your itinerary.</p>
+          <div class="style-grid">
+            <button class="style-card active" data-style="Relaxed Luxury">
+              <span class="sc-emoji">🛋️</span><strong>Relaxed Luxury</strong><small>Slow mornings, premium comfort</small>
+            </button>
+            <button class="style-card" data-style="Adventure">
+              <span class="sc-emoji">⛰️</span><strong>Adventure</strong><small>Active days, real exploration</small>
+            </button>
+            <button class="style-card" data-style="Romantic">
+              <span class="sc-emoji">🥂</span><strong>Romantic</strong><small>Intimate, candlelit, private</small>
+            </button>
+            <button class="style-card" data-style="Cultural">
+              <span class="sc-emoji">🏺</span><strong>Cultural</strong><small>Heritage, food, local life</small>
+            </button>
           </div>
-        </article>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="b-pane" data-pane="5">
+          <h3>Add experiences</h3>
+          <p class="b-hint">Select extras to enrich your itinerary.</p>
+          <div class="exp-toggle-grid">
+            <label class="exp-toggle"><input type="checkbox" checked><span>Private airport transfers</span></label>
+            <label class="exp-toggle"><input type="checkbox" checked><span>Candlelight dinner</span></label>
+            <label class="exp-toggle"><input type="checkbox"><span>Spa & wellness package</span></label>
+            <label class="exp-toggle"><input type="checkbox"><span>Sunset yacht cruise</span></label>
+            <label class="exp-toggle"><input type="checkbox"><span>Local guided excursion</span></label>
+            <label class="exp-toggle"><input type="checkbox"><span>Travel insurance</span></label>
+          </div>
+        </div>
+
+        <!-- Step 6 -->
+        <div class="b-pane" data-pane="6">
+          <h3>Your personalized plan</h3>
+          <p class="b-hint">Here's a preview — your concierge will refine this within 24 hours.</p>
+          <div class="plan-summary" id="planSummary"></div>
+        </div>
+
+        <div class="builder-nav">
+          <button class="btn-ghost" id="bPrev" disabled>Back</button>
+          <button class="btn-primary" id="bNext">Continue
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
       </div>
     </div>
-  </div>
-</section>
 
-<!-- ============ WORLDWIDE REACH ============ -->
-<section class="section reach">
-  <div class="section-inner">
-    <div class="section-head" data-reveal>
-      <span class="eyebrow"><span class="eyebrow-dot"></span>Worldwide Reach</span>
-      <h2 class="section-title">Wherever you dream of, we've already been</h2>
-    </div>
-
-    <div class="map-wrap" data-reveal>
-      <svg viewBox="0 0 1000 480" class="world-map" id="worldMap">
-        <!-- simplified world dot-map -->
-        <g class="map-dots"></g>
-        <g class="map-routes">
-          <path class="route-path" d="M180,200 Q400,80 520,180" />
-          <path class="route-path" d="M520,180 Q650,150 760,220" />
-          <path class="route-path" d="M180,200 Q300,320 460,300" />
-          <path class="route-path" d="M460,300 Q600,360 720,310" />
-          <path class="route-path" d="M760,220 Q820,260 850,330" />
-        </g>
-        <g class="map-pins">
-          <circle cx="180" cy="200" r="5"></circle>
-          <circle cx="520" cy="180" r="5"></circle>
-          <circle cx="760" cy="220" r="5"></circle>
-          <circle cx="460" cy="300" r="5"></circle>
-          <circle cx="720" cy="310" r="5"></circle>
-          <circle cx="850" cy="330" r="5"></circle>
-        </g>
-      </svg>
-      <div class="reach-stats">
-        <div><strong>50+</strong><span>Countries Served</span></div>
-        <div><strong>120+</strong><span>Travel Partners</span></div>
-        <div><strong>24/7</strong><span>Global Desk</span></div>
-      </div>
-    </div>
   </div>
 </section>
 
@@ -350,7 +242,6 @@
     <button class="pay-close" id="payClose" aria-label="Close">✕</button>
 
     <div class="pay-grid">
-      <!-- LEFT: Summary -->
       <div class="pay-summary">
         <span class="pay-summary-label">Booking Summary</span>
         <div class="ticket-card" id="ticketCard">
@@ -395,7 +286,6 @@
         </div>
       </div>
 
-      <!-- RIGHT: Payment form -->
       <div class="pay-form-wrap">
         <span class="pay-summary-label">Payment Details</span>
 
@@ -405,7 +295,6 @@
           <button class="pm-btn" data-method="netbanking">🏦 Net Banking</button>
         </div>
 
-        <!-- CARD FORM -->
         <form class="pay-form" id="cardForm">
           <div class="live-card" id="liveCard">
             <div class="lc-top">
@@ -447,7 +336,6 @@
           </div>
         </form>
 
-        <!-- UPI FORM -->
         <div class="pay-form" id="upiForm" style="display:none">
           <div class="upi-qr-box">
             <svg viewBox="0 0 132 132" width="132" height="132">
@@ -496,7 +384,6 @@
           </button>
         </div>
 
-        <!-- NETBANKING FORM -->
         <div class="pay-form" id="netForm" style="display:none">
           <p class="upi-hint">Select your bank to continue.</p>
           <div class="bank-grid">
